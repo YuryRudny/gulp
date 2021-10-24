@@ -1,0 +1,72 @@
+$browser-context: 16;
+
+// grid gutter
+$offset_one_side: 10px;
+// if adaptive
+$offset_one_side-tablet: 10px;
+
+// fonts
+$f-heading: "TTHoves", arial, sans-serif;
+$f-text: "TTHoves", arial, sans-serif;
+
+// colors main
+$c-primary: #db0812;
+$c-secondary: #00a4fa;
+$c-main-bg: #f7f9fa;
+$c-secondary-light: #e6f6ff;
+
+// colors text
+$c-main: #0b1f35;
+$c-main-text: #3c4c5d;
+$c-main-lighten: #a4b3be;
+$c-text-gray: #9da5ae;
+$c-text-underline-gray: #9da5ae;
+$c-secondary-gray: #6d7986;
+
+// colors helpers
+$c-primary-hover: #c1050e;
+$c-primary-active: #af0008;
+$c-primary-disabled: #fff5f5;
+$c-primary-light: #fbe6e7;
+$c-dropdown: #eeeef2;
+$c-success: #29b9a3;
+$c-process: #f5b91f;
+$c-failure: #f75566;
+$c-white: #fff;
+$c-gray-light: #a4b3be;
+
+// forms
+$c-inputs-bg: #f7f9fa;
+$c-inputs-border: #e7e9eb;
+
+// checkbox
+$c-checkbox-border: #a4b3be;
+$c-checkbox-disabled: #ced2d7;
+
+// outline
+$outline-shadow: 3px 2px 22px -6px rgba(0, 0, 0, 0.75);
+
+// transitions
+$transition-primary: 0.3s;
+$transition-secondary: 0.2s;
+
+$imgBase: "../images/";
+
+$small: 560px;
+$middle: 760px;
+$tablet: 996px;
+$laptop: 1120px;
+$desktop: 1300px;
+$wide: 1340px;
+$large: 1800px;
+
+// breakpoints
+$xs: 380px;
+$sm: 560px;
+$smd: 780px;
+$md: 1000px;
+$slg: 1025px;
+$lg: 1285px;
+$xlg: 1370px;
+$xxlg: 1445px;
+$xxxlg: 1925px;

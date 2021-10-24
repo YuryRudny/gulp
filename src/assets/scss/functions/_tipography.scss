@@ -1,0 +1,53 @@
+p {
+  font-size: rem(16);
+  margin-bottom: 1rem;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 15px;
+}
+ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: rem(7);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: $c-primary;
+}
+
+a {
+  color: $f-text;
+  transition: color 0.3s ease;
+  display: inline-block;
+}
+a:hover {
+  color: $c-primary;
+  text-decoration: none;
+}
+
+h3,
+.h3 {
+  font-size: rem(30);
+  text-align: center;
+  margin-bottom: rem(40);
+  text-transform: uppercase;
+}
+
+ol {
+  padding-left: rem(20);
+  margin-bottom: rem(30);
+}
+ol li {
+  margin-bottom: rem(10);
+}
